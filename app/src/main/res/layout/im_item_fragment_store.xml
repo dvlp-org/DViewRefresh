@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:background="@mipmap/im_bg_get_store"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="124dp">
+
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="23dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="【java简史的话广泛大锅饭】"
+            android:textColor="#ffaf9cce"
+            android:textSize="17sp"
+            />
+        <TextView
+            android:layout_marginTop="11dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginRight="19dp"
+            android:id="@+id/tvDes"
+            android:layout_width="match_parent"
+            android:lineSpacingExtra="3dp"
+            android:layout_height="54dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="消息这个词应用比较广泛，新鲜事就叫消息，还指
+报道事情的概貌而不讲述详细的经过和细节，以简明的
+文字迅速及时地报道最新事实的事实的短篇新闻宣传文书。"
+            android:textColor="#ff808080"
+            android:textSize="13sp"
+            />
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

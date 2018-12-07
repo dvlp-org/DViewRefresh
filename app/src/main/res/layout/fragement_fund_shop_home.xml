@@ -8,7 +8,7 @@
     <LinearLayout
         android:id="@+id/llCommonXJBContainer"
         android:layout_width="match_parent"
-        android:layout_height="255dp"
+        android:layout_height="155dp"
         android:background="#C7A975"
         android:orientation="vertical">
 
@@ -21,44 +21,46 @@
 
 
             <LinearLayout
-                android:layout_marginLeft="18dp"
-                android:layout_marginRight="18dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
                 android:orientation="horizontal">
                 <!--自选，收藏-->
                 <TextView
                     android:id="@+id/selfCollections"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content" />
 
                 <View
                     android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:layout_height="match_parent"/>
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
                 <TextView
                     android:id="@+id/tvSetVoteFund"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content" />
 
                 <View
                     android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:layout_height="match_parent"/>
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
 
                 <TextView
                     android:id="@+id/tvMyAssets"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content" />
+
                 <View
                     android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:layout_height="match_parent"/>
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
                 <TextView
                     android:id="@+id/toFundTab"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content" />
             </LinearLayout>
         </RelativeLayout>
     </LinearLayout>
@@ -70,6 +72,36 @@
         android:layout_height="wrap_content"
         android:background="#bcbcbc"
         android:orientation="vertical"></LinearLayout>
+
+    <TextView
+        android:textColor="#C7A975"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这是RecyclerView "/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:text="这是ListView"
+        android:textColor="#C7A975" />
+    <news.dvlp.dviewrefresh.NoScrollListView
+        android:id="@+id/mlv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </news.dvlp.dviewrefresh.NoScrollListView>
 
     <!--底部温馨提示-->
     <LinearLayout
